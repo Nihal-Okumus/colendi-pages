@@ -3,6 +3,8 @@ import SwiftUI
 struct LoginView: View {
     @State private var email: String = ""
     @State private var password: String = ""
+    @State private var isLoggedIn = false
+
 
     var body: some View {
         NavigationView {
@@ -21,8 +23,10 @@ struct LoginView: View {
                     .padding(.horizontal)
 
                 Button("Giriş Yap") {
-                    print("Giriş denemesi yapıldı")
+                    isLoggedIn = true
+                    
                 }
+                
                 .frame(maxWidth: .infinity)
                 .padding()
                 .background(Color.blue)
@@ -30,6 +34,16 @@ struct LoginView: View {
                 .cornerRadius(10)
                 .padding(.horizontal)
 
+                
+                
+                
+                NavigationLink(destination: HomeView(), isActive: $isLoggedIn) {
+                    EmptyView()
+                }
+
+                
+                
+               
                 HStack {
                     Text("Hesabın yok mu?")
                         .font(.body)

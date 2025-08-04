@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		581168492E3CB50A00014A02 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581168482E3CB50A00014A02 /* LoginView.swift */; };
 		5811684B2E3CB51700014A02 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5811684A2E3CB51700014A02 /* RegisterView.swift */; };
+		589A49632E3E02C6001059C5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589A49622E3E02C6001059C5 /* HomeView.swift */; };
+		589A49652E3E051D001059C5 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589A49642E3E051D001059C5 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		581168352E3CB4EA00014A02 /* first-colendiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "first-colendiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		581168482E3CB50A00014A02 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		5811684A2E3CB51700014A02 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		589A49622E3E02C6001059C5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		589A49642E3E051D001059C5 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -82,6 +86,8 @@
 		581168152E3CB4E800014A02 = {
 			isa = PBXGroup;
 			children = (
+				589A49642E3E051D001059C5 /* ProfileView.swift */,
+				589A49622E3E02C6001059C5 /* HomeView.swift */,
 				5811684A2E3CB51700014A02 /* RegisterView.swift */,
 				581168482E3CB50A00014A02 /* LoginView.swift */,
 				581168202E3CB4E800014A02 /* first-colendi */,
@@ -246,6 +252,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				581168492E3CB50A00014A02 /* LoginView.swift in Sources */,
+				589A49632E3E02C6001059C5 /* HomeView.swift in Sources */,
+				589A49652E3E051D001059C5 /* ProfileView.swift in Sources */,
 				5811684B2E3CB51700014A02 /* RegisterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

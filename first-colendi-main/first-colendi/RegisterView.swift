@@ -12,7 +12,7 @@ struct RegisterView: View {
         VStack(spacing: 20) {
 
            
-            HStack {
+            /*HStack {
                 Button(action: {
                     dismiss()
                 }) {
@@ -22,7 +22,7 @@ struct RegisterView: View {
                 }
                 Spacer()
             }
-            .padding(.horizontal)
+            .padding(.horizontal) */
 
             Text("Kayıt Ol")
                 .font(.largeTitle)
@@ -79,7 +79,7 @@ struct RegisterView: View {
             return
         }
 
-        // Gerçek kayıt işlemi buraya eklenebilir
+        
         errorMessage = "Kayıt başarılı! (Demo)"
     }
 }
